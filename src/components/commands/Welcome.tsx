@@ -23,12 +23,12 @@ const Welcome: React.FC = () => {
             `}
           </PreNameMobile> */}
         </PreWrapper>
-        <div>Welcome to the terminal. (Version 1.3.1)</div>
+        <div>Welcome to Idot's terminal. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
         <div>
-          This project's source code is currently not public{" "}
-          <Link href="https://github.com/Idot07">
-            GitHub Account
+          This project's source code is available at this{" "}
+          <Link href="https://github.com/Idot07/fun">
+            GitHub Repo
           </Link>
           .
         </div>

@@ -118,7 +118,6 @@ describe("Terminal Component", () => {
 
     const otherCmds = [
       "about",
-      "education",
       "help",
       "history",
       "projects",
@@ -150,7 +149,7 @@ describe("Terminal Component", () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "contact@idot.dev"
+        "idot715859962315669556@gmail.com"
       );
     });
 

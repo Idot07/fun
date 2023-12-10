@@ -52,7 +52,7 @@ function App() {
   return (
     <>
       <h1 className="sr-only" aria-label="Terminal">
-        Terminal Portfolio
+        Terminal
       </h1>
       {themeLoaded && (
         <ThemeProvider theme={selectedTheme}>
