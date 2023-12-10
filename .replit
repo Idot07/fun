@@ -1,18 +1,18 @@
-run = ["npm run dev"]
+run = ["bash", "start.sh"]
 
-entrypoint = ""
+entrypoint = "start.sh"
 modules = ["nodejs-20:v8-20230920-bd784b9"]
 
 [nix]
 channel = "stable-22_11"
 
 [deployment]
-run = ["npm", "run", "dev"]
+run = ["bash", "start.sh"]
 
 [languages]
 
 [languages.bash]
-pattern = "**/{*.sh,*.js,*.ts,*.tsx}"
+pattern = "**/{*.sh}"
 
 [languages.bash.languageServer]
 start = "bash-language-server start"
